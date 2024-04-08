@@ -1,8 +1,8 @@
 package org.example.strategy;
 
-import org.example.strategy.strategy.HDDisplay;
-import org.example.strategy.strategy.NormalDisplay;
-import org.example.strategy.strategy.SportsDriveStartegy;
+import org.example.strategy.strategies.HDDisplay;
+import org.example.strategy.strategies.NormalDisplay;
+import org.example.strategy.strategies.SportsDriveStartegy;
 
 public class StrategyTest {
     public static void main(String[] args){

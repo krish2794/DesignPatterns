@@ -1,4 +1,4 @@
-package org.example.strategy.strategy;
+package org.example.strategy.strategies;
 
 public class SportsDriveStartegy implements DriveStrategy{
     @Override

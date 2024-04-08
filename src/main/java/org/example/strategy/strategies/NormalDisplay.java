@@ -1,4 +1,4 @@
-package org.example.strategy.strategy;
+package org.example.strategy.strategies;
 
 public class NormalDisplay implements DisplayStrategy{
 

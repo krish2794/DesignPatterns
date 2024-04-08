@@ -1,4 +1,4 @@
-package org.example.strategy.strategy;
+package org.example.strategy.strategies;
 
 public class NormalDriveStrategy implements DriveStrategy {
     @Override

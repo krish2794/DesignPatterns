@@ -1,8 +1,7 @@
 package org.example.strategy;
 
-import org.example.strategy.strategy.DisplayStrategy;
-import org.example.strategy.strategy.DriveStrategy;
-import org.example.strategy.strategy.SportsDriveStartegy;
+import org.example.strategy.strategies.DisplayStrategy;
+import org.example.strategy.strategies.DriveStrategy;
 
 public class SportsVehicle extends Vehicle{
     public SportsVehicle(DisplayStrategy displayStrategy, DriveStrategy driveStrategy){
