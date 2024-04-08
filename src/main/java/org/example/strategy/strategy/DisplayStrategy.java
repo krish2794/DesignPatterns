@@ -1,2 +1,5 @@
-package org.example.strategy.strategy;public class DisplayStrategy {
+package org.example.strategy.strategy;
+
+public interface DisplayStrategy {
+    void display();
 }

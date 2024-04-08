@@ -1,2 +1,5 @@
-package org.example.strategy.strategy;public class DriveStrategy {
+package org.example.strategy.strategy;
+
+public interface DriveStrategy {
+    public void drive();
 }
