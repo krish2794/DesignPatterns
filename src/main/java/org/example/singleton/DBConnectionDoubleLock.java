@@ -3,7 +3,7 @@ package org.example.singleton;
 public class DBConnectionDoubleLock {
     private static DBConnectionDoubleLock dbConnectionDoubleLock;
 
-    public DBConnectionDoubleLock(){
+    private DBConnectionDoubleLock(){
 
     }
 

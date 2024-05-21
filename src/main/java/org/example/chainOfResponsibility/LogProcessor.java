@@ -12,7 +12,7 @@ public abstract class LogProcessor {
         this.nextLogProcessor = logProcessor;
     }
 
-    public void log(int logLevel, String msg){
+    public void log(LogLevel logLevel, String msg){
         if(nextLogProcessor != null){
             nextLogProcessor.log(logLevel, msg);
         }
